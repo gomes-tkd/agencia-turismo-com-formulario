@@ -1,0 +1,114 @@
+.ofertas-bg {
+  background-color: #eee;
+}
+
+.ofertas {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ofertas span {
+  font-weight: bold;
+}
+
+.ofertas > div {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ofertas-banner {
+  display: flex;
+  height: 310px;
+  width: 520px;
+  background-image: url("../../assets/rio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ofertas-cidade p,
+.ofertas-banner p {
+  place-self: end;
+  padding: 0.5rem;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ofertas-cidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.ofertas-cidade {
+  display: flex;
+  width: 250px;
+  height: 150px;
+}
+
+.rio-de-janeiro,
+.manaus,
+.sao-paulo,
+.maranhao {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rio-de-janeiro {
+  background-image: url("../../assets/niteroi.jpg");
+}
+
+.manaus {
+  background-image: url("../../assets/manaus.jpg");
+}
+
+.sao-paulo {
+  background-image: url("../../assets/saopaulo.jpg");
+}
+
+.maranhao {
+  background-image: url("../../assets/maranhao.jpg");
+}
+
+.natureza {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.lencois-maranhenses,
+.cachoeira-santa-barbara {
+  width: 500px;
+  height: 500px;
+}
+
+.natureza > div {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.natureza-detalhe,
+.natureza-info {
+  display: grid;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.natureza-info img {
+  max-width: 520px;
+}
+
+.natureza-detalhe {
+  padding: 1rem;
+}
